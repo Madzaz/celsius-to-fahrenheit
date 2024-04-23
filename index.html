@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New VSSC File</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form>
+    <h1>Temperature conversion:</h1>
+    <input type="number" id="textBox" value="0">
+    <br>
+
+    <input type="radio" id="selectCelsius" name="unit">
+    <label for="selectCelsius">Celsius to Fahrenheit</label>
+    <br>
+
+    <input type="radio" id="selectFahrenheit" name="unit">
+    <label for="selectFahrenheit">Fahrenheit to Celsius</label>
+    <br>
+
+    <button type="button" onclick="convert()">Submit</button>
+
+    <p id="result">Select a unit</p>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
